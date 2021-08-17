@@ -16,6 +16,7 @@
     },
     "rules": {
         "linebreak-style": ["error", "windows"],
+        "object-curly-spacing": ["error", "always"],
         "prettier/prettier": ["error", {
             "endOfLine": "auto"
           }
