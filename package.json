@@ -1,0 +1,28 @@
+{
+  "name": "nutcache-challenge-joaovitoroliveira-backend",
+  "version": "1.0.0",
+  "description": "Back-end para o desafio de seleção da Nutcache, feito em Node.js e MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FactorMouk/nutcache-challenge-joaovitoroliveira-backend.git"
+  },
+  "keywords": [
+    "nutcache",
+    "back-end"
+  ],
+  "author": "João Vitor Oliveira - FactorMouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FactorMouk/nutcache-challenge-joaovitoroliveira-backend/issues"
+  },
+  "homepage": "https://github.com/FactorMouk/nutcache-challenge-joaovitoroliveira-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
+  }
+}
