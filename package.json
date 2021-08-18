@@ -1,6 +1,6 @@
 {
   "name": "nutcache-challenge-joaovitoroliveira-backend",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Back-end para o desafio de seleção da Nutcache, feito em Node.js e MongoDB",
   "main": "index.js",
   "scripts": {
