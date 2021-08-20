@@ -44,12 +44,9 @@ Primeiramente, foi escolhido o padrão MVC para a construção da API.
 
 <img src="https://drive.google.com/uc?export=view&id=14qmODwCnwJ4sudv8sY9BnRql0XhTWhv-">
 
-- `assets`: Contém todos os assets da aplicação, como imagens e ícones;
-- `components`: Contém todos os componentes principais da aplicação;
-- `facades`: Contém os arquivos JS de configuração de facades de conexão dos componentes com os serviços da API. Para mais informações sobre este Padrão de Projeto, acesse [este link](https://refactoring.guru/pt-br/design-patterns/facade);
-- `controllers`: Contém as Controllers do MVC;
+- `controllers`: Contém os Controllers do MVC;
 - `models`: Contém os Models do MVC;
-- `views`: Não utilizado, estando aqui apenas para manter o padrão;
+- `views`: Não utilizada, estando aqui apenas para manter o padrão;
 - `routes`: Contém as rotas do CRUD.
 
 ## Deploy
