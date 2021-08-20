@@ -8,7 +8,7 @@ const EmployeeSchema = new Schema({
   email: { type: String, required: true, max: 100 },
   cpf: { type: String, required: true, max: 14 },
   startDate: { type: String, required: true, max: 10 },
-  team: { type: String, required: true, max: 15 },
+  team: { type: String, max: 15 },
 });
 
 module.exports = mongoose.model('Employee', EmployeeSchema);
