@@ -14,7 +14,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error!'));
 const employees = require('./src/routes/employees.route');
 const app = express();
 app.use(express.json());
-app.options('*', cors()); // include before other routes
+app.use(cors());
 app.use('/nutemployee', employees);
 app.listen(8000, () => {
   console.log('Server running on port 8000!');
