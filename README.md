@@ -51,7 +51,7 @@ Primeiramente, foi escolhido o padrão MVC para a construção da API.
 
 ## Deploy
 
-A aplicação está rodando em produção neste link: [http://nutcache-challenge-backend.herokuapp.com/](http://nutcache-challenge-backend.herokuapp.com/).
+A aplicação está rodando em produção neste link: [https://nutcache-challenge-backend.herokuapp.com/](https://nutcache-challenge-backend.herokuapp.com/).
 O container Heroku está configurado para build e deploy automático a cada novo commit na branch `main`.
 
 Caso acesse este link, tenha em vista que, por ser um container gratuito, o primeiro carregamento pode demorar um pouco, pois o Heroku "adormece" um container que passou certo tempo sem ser utilizado. Tal demora não tem conexão direta com o desempenho do aplicativo.
